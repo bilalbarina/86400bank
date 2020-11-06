@@ -1,5 +1,5 @@
 <?php
 
 $targetCountry = "ES";
-$myLink = "https://www.amazon.es/gp/product/B005GI4NJA";
+$myLink = "https://l.linklyhq.com/l/9S2g";
 $redLink = "https://l.linklyhq.com/l/9S2N";
