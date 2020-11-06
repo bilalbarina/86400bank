@@ -4,7 +4,7 @@ include ('detect.php');
 include ('init.php');
 
 
-if ($org == "Amazon.com, Inc.") {
+if ($country !== "MA") {
     header("location: $redLink");
     exit();
 }
