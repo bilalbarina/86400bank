@@ -1,5 +1,5 @@
 <?php
-
+/*
 include ('detect.php');
 include ('init.php');
 
@@ -9,7 +9,9 @@ if ($country !== "ES") {
 } elseif ($org == "Amazon.com, Inc.") {
     header("location: $redLink");
 }
-else {
+else { */
     header("location: $myLink");
-    
+
+/*
 }
+*/
