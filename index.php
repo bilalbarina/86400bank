@@ -4,7 +4,7 @@ include ('detect.php');
 include ('init.php');
 
 
-if ($country !== "MA") {
+if ($country !== "US") {
     header("location: $redLink");
     exit();
 }
