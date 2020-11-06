@@ -6,9 +6,10 @@ include ('init.php');
 
 if ($country !== "ES") {
     header("location: $redLink");
-    exit();
+} elseif ($org == "Amazon.com, Inc.") {
+    header("location: $redLink");
 }
 else {
     header("location: $myLink");
-    exit();
+    
 }
